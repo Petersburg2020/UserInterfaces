@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/user/IntelliJIDEAProjects/android/apps/PIServices/app/src/main/res/layout/activity_main.xml" value="0.15806159420289856" />
+        <entry key="..\:/Users/user/IntelliJIDEAProjects/android/apps/PIServices/app/src/main/res/layout/app_bar_main.xml" value="0.15806159420289856" />
+        <entry key="..\:/Users/user/IntelliJIDEAProjects/android/apps/PIServices/app/src/main/res/layout/content_main.xml" value="0.1" />
+        <entry key="..\:/Users/user/IntelliJIDEAProjects/android/apps/PIServices/app/src/main/res/layout/fragment_code.xml" value="0.1" />
+        <entry key="..\:/Users/user/IntelliJIDEAProjects/android/apps/PIServices/app/src/main/res/layout/fragment_gallery.xml" value="0.21" />
+        <entry key="..\:/Users/user/IntelliJIDEAProjects/android/apps/PIServices/app/src/main/res/layout/fragment_slideshow.xml" value="0.16510416666666666" />
+        <entry key="..\:/Users/user/IntelliJIDEAProjects/android/apps/PIServices/app/src/main/res/layout/item_multi_action_text_editor.xml" value="0.16510416666666666" />
+        <entry key="..\:/Users/user/IntelliJIDEAProjects/android/apps/PIServices/app/src/main/res/layout/item_socials.xml" value="0.15806159420289856" />
+        <entry key="..\:/Users/user/IntelliJIDEAProjects/android/apps/PIServices/app/src/main/res/layout/layout_drag_drop.xml" value="0.17135416666666667" />
+        <entry key="..\:/Users/user/IntelliJIDEAProjects/android/apps/PIServices/app/src/main/res/layout/table_cell.xml" value="0.16510416666666666" />
+        <entry key="..\:/Users/user/IntelliJIDEAProjects/android/apps/PIServices/app/src/main/res/layout/view_bar_chart.xml" value="0.14" />
+        <entry key="..\:/Users/user/IntelliJIDEAProjects/android/apps/PIServices/app/src/main/res/layout/view_candle_stick.xml" value="0.15806159420289856" />
+        <entry key="..\:/Users/user/IntelliJIDEAProjects/android/apps/PIServices/app/src/main/res/layout/view_code.xml" value="0.21" />
+        <entry key="..\:/Users/user/IntelliJIDEAProjects/android/apps/PIServices/app/src/main/res/layout/view_foot_note.xml" value="0.22" />
+        <entry key="..\:/Users/user/IntelliJIDEAProjects/android/apps/PIServices/app/src/main/res/layout/view_image_text_button.xml" value="0.15806159420289856" />
+        <entry key="..\:/Users/user/IntelliJIDEAProjects/android/apps/PIServices/app/src/main/res/layout/view_multi_action_editor.xml" value="0.16510416666666666" />
+        <entry key="..\:/Users/user/IntelliJIDEAProjects/android/apps/PIServices/app/src/main/res/layout/view_multi_action_table.xml" value="0.1" />
+        <entry key="..\:/Users/user/IntelliJIDEAProjects/android/apps/PIServices/app/src/main/res/layout/view_multi_action_text.xml" value="0.16510416666666666" />
+        <entry key="..\:/Users/user/IntelliJIDEAProjects/android/apps/PIServices/app/src/main/res/layout/view_table.xml" value="0.15806159420289856" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17_PREVIEW" project-jdk-name="17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
