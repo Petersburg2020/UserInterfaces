@@ -6,7 +6,7 @@ import android.graphics.drawable.Drawable;
 import androidx.annotation.ColorInt;
 import androidx.annotation.DrawableRes;
 import androidx.annotation.NonNull;
-import nx.peter.app.ui.view.MultiActionView;
+import nx.peter.app.android_ui.view.MultiActionView;
 
 public class TextImage extends Text {
 	public Drawable image;

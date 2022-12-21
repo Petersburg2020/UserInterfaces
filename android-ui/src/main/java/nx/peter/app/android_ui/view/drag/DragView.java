@@ -8,7 +8,7 @@ import android.view.Gravity;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.WindowManager;
-import nx.peter.app.ui.view.general.Content;
+import nx.peter.app.android_ui.view.general.Content;
 
 public class DragView<D extends View> extends Content<DragView, D> {
     // Number of pixels to add to the dragged item for scaling.  Should be even for pixel alignment.

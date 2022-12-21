@@ -2,7 +2,7 @@ package nx.peter.app.android_ui.view.text;
 
 import android.content.Context;
 import androidx.annotation.NonNull;
-import nx.peter.app.ui.view.util.Random;
+import nx.peter.app.android_ui.view.util.Random;
 
 import java.util.List;
 
@@ -16,9 +16,9 @@ public class FontFamily {
     this.c = c;
   }
 
-  private boolean addMember(@NonNull Style style, @NonNull Font font) {
-    if (!contains(style)) return details.add(new IFontDetail(style, font));
-    return false;
+  private void addMember(@NonNull Style style, @NonNull Font font) {
+    if (!contains(style))
+      details.add(new IFontDetail(style, font));
   }
 
   private boolean contains(@NonNull Style style) {

@@ -10,7 +10,7 @@ import android.view.View;
 import androidx.annotation.ColorInt;
 import androidx.annotation.DrawableRes;
 import androidx.annotation.NonNull;
-import nx.peter.app.ui.view.MultiActionView;
+import nx.peter.app.android_ui.view.MultiActionView;
 
 import java.util.ArrayList;
 import java.util.List;

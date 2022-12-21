@@ -5,6 +5,9 @@ import android.graphics.Bitmap;
 import android.graphics.drawable.Drawable;
 import android.view.View;
 import androidx.annotation.NonNull;
+import nx.peter.app.android_ui.view.util.Padding;
+import nx.peter.app.android_ui.view.util.Scale;
+import nx.peter.app.android_ui.view.util.Size;
 
 import java.util.ArrayList;
 import java.util.Iterator;

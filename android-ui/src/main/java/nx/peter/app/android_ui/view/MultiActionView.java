@@ -8,8 +8,9 @@ import androidx.annotation.ColorInt;
 import androidx.annotation.DrawableRes;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import nx.peter.app.ui.view.text.FontFamily.Family;
-import nx.peter.app.ui.view.text.FontFamily.Style;
+import nx.peter.app.android_ui.view.text.*;
+import nx.peter.app.android_ui.view.text.FontFamily.Family;
+import nx.peter.app.android_ui.view.text.FontFamily.Style;
 
 import java.util.ArrayList;
 import java.util.Iterator;

@@ -12,7 +12,7 @@ import com.evrencoskun.tableview.TableView;
 import com.evrencoskun.tableview.adapter.AbstractTableAdapter;
 import com.evrencoskun.tableview.adapter.recyclerview.holder.AbstractViewHolder;
 import com.evrencoskun.tableview.listener.ITableViewListener;
-import nx.peter.app.ui.R;
+import nx.peter.app.android_ui.R;
 
 import java.util.ArrayList;
 import java.util.Arrays;

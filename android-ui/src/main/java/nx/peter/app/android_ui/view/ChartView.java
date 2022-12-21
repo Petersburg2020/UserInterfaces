@@ -11,7 +11,6 @@ import com.github.mikephil.charting.charts.Chart;
 import com.github.mikephil.charting.data.DataSet;
 import com.github.mikephil.charting.data.Entry;
 import com.github.mikephil.charting.utils.ColorTemplate;
-import org.jetbrains.annotations.NotNull;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -279,7 +278,7 @@ public interface ChartView<V extends View, D extends ChartView.Data, L extends C
         }
 
         @Override
-        public void setTitle(@NotNull CharSequence title) {
+        public void setTitle(@NonNull CharSequence title) {
             this.title = title.toString();
             // dataSet.setLabel(this.title);
             setup();
@@ -296,25 +295,25 @@ public interface ChartView<V extends View, D extends ChartView.Data, L extends C
         }
 
         @Override
-        public void setData(@NotNull List<I> data) {
+        public void setData(@NonNull List<I> data) {
             this.data = data;
             setup();
         }
 
         @Override
-        public void addData(@NotNull I data) {
+        public void addData(@NonNull I data) {
             this.data.add(data);
             setup();
         }
 
         @Override
-        public void removeData(@NotNull I data) {
+        public void removeData(@NonNull I data) {
             this.data.remove(data);
             setup();
         }
 
         @Override
-        public boolean containsData(@NotNull I data) {
+        public boolean containsData(@NonNull I data) {
             return getData().contains(data);
         }
 

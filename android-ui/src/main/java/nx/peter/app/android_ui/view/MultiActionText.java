@@ -12,9 +12,10 @@ import android.view.Gravity;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import nx.peter.app.android_ui.view.IView.Background;
-import nx.peter.app.ui.R;
-import nx.peter.app.ui.view.text.FontFamily.*;
+import nx.peter.app.android_ui.R;
+import nx.peter.app.android_ui.view.text.*;
+import nx.peter.app.android_ui.view.text.FontFamily.Family;
+import nx.peter.app.android_ui.view.text.FontFamily.Style;
 
 import java.util.ArrayList;
 import java.util.Arrays;

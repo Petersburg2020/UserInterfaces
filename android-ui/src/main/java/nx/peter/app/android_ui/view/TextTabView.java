@@ -5,9 +5,8 @@ import android.graphics.Color;
 import android.util.AttributeSet;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import nx.peter.app.ui.R;
-import nx.peter.app.ui.view.text.Font;
-import org.jetbrains.annotations.NotNull;
+import nx.peter.app.android_ui.R;
+import nx.peter.app.android_ui.view.text.Font;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -216,7 +215,7 @@ public class TextTabView extends AbstractView<TextTabView> {
 	}
 	
     @Override
-	public void setBackground(@NotNull Background bg) {
+	public void setBackground(@NonNull Background bg) {
 		layout.setBackground(bg);
 	}
 	

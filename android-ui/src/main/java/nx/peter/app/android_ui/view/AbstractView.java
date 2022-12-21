@@ -7,10 +7,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import androidx.annotation.NonNull;
-import nx.peter.app.ui.R;
-import nx.peter.app.ui.view.util.Padding;
-import nx.peter.app.ui.view.util.Scale;
-import nx.peter.app.ui.view.util.Size;
+import nx.peter.app.android_ui.R;
+import nx.peter.app.android_ui.view.util.Padding;
+import nx.peter.app.android_ui.view.util.Scale;
+import nx.peter.app.android_ui.view.util.Size;
 
 import java.util.Arrays;
 

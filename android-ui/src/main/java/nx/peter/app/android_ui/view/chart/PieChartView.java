@@ -7,10 +7,8 @@ import com.github.mikephil.charting.charts.PieChart;
 import com.github.mikephil.charting.data.PieData;
 import com.github.mikephil.charting.data.PieDataSet;
 import com.github.mikephil.charting.data.PieEntry;
-import nx.peter.app.ui.R;
-import nx.peter.app.ui.view.ChartView;
-import nx.peter.app.ui.view.chart.PieChartView.*;
-import org.jetbrains.annotations.NotNull;
+import nx.peter.app.android_ui.R;
+import nx.peter.app.android_ui.view.ChartView;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -51,7 +49,7 @@ public class PieChartView
     }
 
     @Override
-    public void addData(@NotNull CharSequence label, float valueX, float valueY) {
+    public void addData(@NonNull CharSequence label, float valueX, float valueY) {
         addData(new PiData(valueX, valueY, label));
     }
 

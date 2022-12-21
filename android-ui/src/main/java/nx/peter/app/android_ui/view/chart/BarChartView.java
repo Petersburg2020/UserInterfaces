@@ -2,13 +2,13 @@ package nx.peter.app.android_ui.view.chart;
 
 import android.content.Context;
 import android.util.AttributeSet;
+import androidx.annotation.NonNull;
 import com.github.mikephil.charting.charts.BarChart;
 import com.github.mikephil.charting.data.BarData;
 import com.github.mikephil.charting.data.BarDataSet;
 import com.github.mikephil.charting.data.BarEntry;
-import nx.peter.app.ui.R;
-import nx.peter.app.ui.view.ChartView;
-import org.jetbrains.annotations.NotNull;
+import nx.peter.app.android_ui.R;
+import nx.peter.app.android_ui.view.ChartView;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -49,7 +49,7 @@ public class BarChartView
     }
 
     @Override
-    public void addData(@NotNull CharSequence label, float valueX, float valueY) {
+    public void addData(@NonNull CharSequence label, float valueX, float valueY) {
         addData(new BaData(valueX, valueY));
     }
 
@@ -63,6 +63,7 @@ public class BarChartView
 
     public static class BaData implements Data<BaData> {
         protected float value1, value2;
+
         public BaData(float value1, float value2) {
             this.value1 = value1;
             this.value2 = value2;

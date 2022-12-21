@@ -8,8 +8,8 @@ import com.github.mikephil.charting.charts.CandleStickChart;
 import com.github.mikephil.charting.data.CandleData;
 import com.github.mikephil.charting.data.CandleDataSet;
 import com.github.mikephil.charting.data.CandleEntry;
-import nx.peter.app.ui.R;
-import nx.peter.app.ui.view.ChartView;
+import nx.peter.app.android_ui.R;
+import nx.peter.app.android_ui.view.ChartView;
 
 import java.util.ArrayList;
 import java.util.List;

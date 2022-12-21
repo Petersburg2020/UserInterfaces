@@ -9,8 +9,8 @@ import android.widget.LinearLayout;
 import androidx.annotation.ColorInt;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import nx.peter.app.ui.R;
-import nx.peter.app.ui.view.util.Constant;
+import nx.peter.app.android_ui.R;
+import nx.peter.app.android_ui.view.util.Constant;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -63,12 +63,10 @@ public class CodeEditor extends AbstractView<CodeEditor> {
         // setup();
 
 
-        editor.setOnTextChangedListener((view, oldText, newText) -> {
-            editor.post(() -> {
-                if (editor.getLineCount() > lastLineCount)
-                    updateLine();
-            });
-        });
+        editor.setOnTextChangedListener((view, oldText, newText) -> editor.post(() -> {
+            if (editor.getLineCount() > lastLineCount)
+                updateLine();
+        }));
     }
 
     public void setText(@NonNull CharSequence text) {

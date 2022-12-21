@@ -19,9 +19,9 @@ import android.widget.*;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import nx.peter.app.android_ui.view.IView.Background;
-import nx.peter.app.ui.R;
-import nx.peter.app.ui.view.text.FontFamily.*;
-import org.jetbrains.annotations.NotNull;
+import nx.peter.app.android_ui.R;
+import nx.peter.app.android_ui.view.text.*;
+import nx.peter.app.android_ui.view.text.FontFamily.*;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -1440,7 +1440,7 @@ public class MultiActionEditor extends AbstractView<MultiActionEditor>
     }
 
     public static class CustomTokenizer extends Tokenizer {
-        public CustomTokenizer(@NonNull @NotNull String tokens) {
+        public CustomTokenizer(@NonNull String tokens) {
             super(tokens);
         }
     }

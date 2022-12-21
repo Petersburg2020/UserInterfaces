@@ -9,7 +9,7 @@ import android.view.ViewGroup;
 import android.widget.RemoteViews;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import nx.peter.app.ui.R;
+import nx.peter.app.android_ui.R;
 
 /**
  * A layout that lets you specify exact locations (x/y coordinates) of its

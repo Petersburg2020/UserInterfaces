@@ -1,5 +1,6 @@
 package nx.peter.app.android_ui.view.text;
-import nx.peter.app.ui.view.MultiActionView;
+
+import nx.peter.app.android_ui.view.MultiActionView;
 
 public abstract class Text {
 	public MultiActionView view;

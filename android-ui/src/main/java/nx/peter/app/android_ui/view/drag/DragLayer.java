@@ -9,7 +9,6 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Toast;
 import androidx.annotation.NonNull;
-import org.jetbrains.annotations.NotNull;
 
 /**
  * A ViewGroup that coordinates dragging across its dscendants.
@@ -77,7 +76,7 @@ public class DragLayer<V extends View> extends AbsoluteLayout implements DragSou
     /**
      * onDropCompleted
      */
-    public void onDropCompleted(@NotNull View target, boolean success) {
+    public void onDropCompleted(@NonNull View target, boolean success) {
         toast("DragLayer2.onDropCompleted: " + target.getId() + " Check that the view moved.");
     }
 
@@ -99,8 +98,8 @@ public class DragLayer<V extends View> extends AbsoluteLayout implements DragSou
      * @param dragInfo Data associated with the object being dragged
      */
     @Override
-    public void onDrop(@NotNull DragSource<V> source, int x, int y, int xOffset, int yOffset,
-                       @NotNull DragView<V> dragView, @NotNull Object dragInfo) {
+    public void onDrop(@NonNull DragSource<V> source, int x, int y, int xOffset, int yOffset,
+                       @NonNull DragView<V> dragView, @NonNull Object dragInfo) {
         View v = (View) dragInfo;
         toast("DragLayer2.onDrop accepts view: " + v.getId()
                 + "x, y, xO, yO :" + x + ", " + y + ", "
@@ -115,19 +114,19 @@ public class DragLayer<V extends View> extends AbsoluteLayout implements DragSou
     }
 
     @Override
-    public void onDragEnter(@NotNull DragSource<V> source, int x, int y, int xOffset, int yOffset,
-                            @NotNull DragView<V> dragView, @NotNull Object dragInfo) {
+    public void onDragEnter(@NonNull DragSource<V> source, int x, int y, int xOffset, int yOffset,
+                            @NonNull DragView<V> dragView, @NonNull Object dragInfo) {
 
     }
 
     @Override
-    public void onDragOver(@NotNull DragSource<V> source, int x, int y, int xOffset, int yOffset,
-                           @NotNull DragView<V> dragView, @NotNull Object dragInfo) {
+    public void onDragOver(@NonNull DragSource<V> source, int x, int y, int xOffset, int yOffset,
+                           @NonNull DragView<V> dragView, @NonNull Object dragInfo) {
     }
 
     @Override
-    public void onDragExit(@NotNull DragSource<V> source, int x, int y, int xOffset, int yOffset,
-                           @NotNull DragView<V> dragView, @NotNull Object dragInfo) {
+    public void onDragExit(@NonNull DragSource<V> source, int x, int y, int xOffset, int yOffset,
+                           @NonNull DragView<V> dragView, @NonNull Object dragInfo) {
     }
 
     /**
@@ -148,7 +147,7 @@ public class DragLayer<V extends View> extends AbsoluteLayout implements DragSou
      */
     @Override
     public boolean acceptDrop(@NonNull DragSource<V> source, int x, int y, int xOffset, int yOffset,
-                              @NotNull DragView<V> dragView, @NotNull Object dragInfo) {
+                              @NonNull DragView<V> dragView, @NonNull Object dragInfo) {
         return true;
     }
 

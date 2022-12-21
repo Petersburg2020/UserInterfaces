@@ -7,10 +7,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.recyclerview.widget.RecyclerView;
-import nx.peter.app.ui.R;
-import org.jetbrains.annotations.NotNull;
-import org.jetbrains.annotations.Nullable;
+import nx.peter.app.android_ui.R;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -157,7 +156,7 @@ public class FootNoteView extends AbstractView<FootNoteView> {
     }
 
     @Override
-    public void setBackground(@NotNull Background b) {
+    public void setBackground(@NonNull Background b) {
         background = b;
     }
 
@@ -272,7 +271,7 @@ public class FootNoteView extends AbstractView<FootNoteView> {
         public static class SocialHolder extends RecyclerView.ViewHolder {
             final ImageTextButton view;
 
-            public SocialHolder(@NonNull @NotNull View itemView) {
+            public SocialHolder(@NonNull View itemView) {
                 super(itemView);
                 view = itemView.findViewById(R.id.view);
             }
